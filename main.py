@@ -1,4 +1,4 @@
-entrada = input('digite um numero ou "sair" para encerrar\n')
+entrada = input('digite um numero (ou "sair" para encerrar)\n')
 while entrada != 'sair': 
   numero = int(entrada)
 
@@ -7,5 +7,5 @@ while entrada != 'sair':
 
   print('o sucessor de ' + str(numero) + ' é ' + str(suc)) 
   print('o antecessor de ' + str(numero) + ' é ' + str(ant))
-  entrada = input('digite um numero ou "sair" para encerrar\n') 
+  entrada = input('digite um numero (ou "sair" para encerrar)\n') 
 print('programa encerrado!')
